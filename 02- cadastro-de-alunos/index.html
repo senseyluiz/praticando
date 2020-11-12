@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    
+    <section class="center" >
+        <div class="center area-form">
+            <h1>Cadastro de Alunos</h1>
+            <form class="center">
+                <p>Nome: <input type="text" class="nome"></p>                
+                <p>Telefone: <input type="text" class="telefone"></p>
+                <p>Modalidade: <input type="text" class="modalidade"></p>
+                <p>Início: <input type="text" class="inicio"></p>
+                <button type="reset">Limpar</button>
+                <button type="submit">Cadastrar</button>
+            </form>            
+        </div>
+
+        <div class="box-cadastrados center">
+            <table>
+                <h2>Alunos Cadastrados</h2>
+                <thead>
+                    <tr>
+                        <td class="nome-cadastro">Nome</td>
+                        <td class="telefone-cadastro">Telefone</td>
+                        <td class="modalidade-cadastro">Modalidade</td>
+                        <td class="inicio-cadastro">Início</td>
+                    </tr>
+                </thead>
+
+                <tbody class="cadastro"></tbody>
+                     
+                
+            </table>
+            
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

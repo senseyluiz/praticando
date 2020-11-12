@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+section{
+    background-color: bisque;
+}
+
+.area-form{
+    border-radius: 8px;;
+    max-width: 600px;
+    background-color: cadetblue;
+    
+   
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: darkgreen;
+}
+
+form{
+    border-radius: 8px;
+    width: 400px;
+    text-align: right;
+    background-color: chocolate;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+input{
+    width: 250px;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    background-color: darkolivegreen;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    
+}
+
+button:hover{
+    background-color:#FFF;
+    color:darkolivegreen;
+}
+
+.box-cadastrados{
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 600px;    
+    background-color: darkkhaki;
+}
+
+h2{
+    
+    margin-bottom: 20px;
+}
+
+thead td{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+tr{
+    padding-top: 5px;
+    padding-left: 5px;    
+    text-align: left;
+    font-size: 14px;
+    max-width: 600px;
+    height: 30px;
+    background-color: #FFF;
+}
+
+tbody td{
+    padding-left: 10px;
+}
+
+
+.nome-cadastro {
+    width: 40%;
+    text-align: center;
+}
+
+.telefone-cadastro, .modalidade-cadastro, .inicio-cadastro{
+    width: 150px;
+    
+    text-align: center;
+}
+

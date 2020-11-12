@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Raiz Quadrada</title>
+</head>
+<body>
+    <section class="center">
+        <div>
+            <h1>Resolvendo Equação do 2º Grau</h1>
+            <h3>Ax² + Bx + C</h3>
+            <p>Digite o valor de A: <input type="text" id="valorA"></p>
+            <p>Digite o valor de B: <input type="text" id="valorB"></p>
+            <p>Digite o valor de C: <input type="text" id="valorC"></p>
+            <div class="box-botoes">
+                <button>LIMPAR</button>
+                <button type="submit" onclick="resolver()">ENVIAR</button>
+            </div>
+            <p class="resultado">RESULTADOS:</p>
+            <b>X1</b> = <div id="x1"><b></b></div>
+            <b>X2</b> = <div id="x2"><b></b></div>
+            <p id="msg"></p>
+        </div>
+    </section>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
