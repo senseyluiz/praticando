@@ -1,0 +1,57 @@
+section{
+    margin: 0 auto;
+    width: 60%;
+    background-color: #850203;
+    color: #FFF;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    min-height: 400px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    padding-left: 5px;
+}
+
+button{
+    background-color: rgb(164, 209, 207);
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.cadastros{
+    border-radius: 4px;
+    margin: 0 auto;
+    max-width: 90%;
+    min-height: 200px;
+    background-color: khaki;
+}
+
+ul{        
+    list-style: none;
+    text-align: left;
+    padding-top: 10px;    
+}
+
+ul button{
+    background-color: red;
+    color: #FFF;
+    float: right;
+}
+
+li{
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    padding-left: 5px;
+    border-radius: 2px;
+    color: sienna;
+    margin-top: 5px;
+    width: 80%;
+    height: 22px;
+}
