@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.w50{
+    width: 50%;
+}
+
+h1{
+    margin-top: 25px;
+    text-align: center;
+}
+
+form{    
+    border-radius: 10px;
+    background-color: rgb(235, 142, 76);
+    max-width: 30%;
+    padding: 20px;    
+}
+
+form label{
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #66220d;
+}
+
+form button, form input{
+    width: 100%;
+    height: 25px;
+}
+
+form input{
+    padding-left: 10px;
+}
+
+form button{
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    background-color: #22ffc6;
+    font-weight: bold;
+}
+
+table, section{
+    max-width: 900px;
+    margin: 20px auto;
+    width: 95%;    
+    color: #fff;
+}
+
+thead{
+    background-color: #0d5166;    
+}
+
+thead tr th{
+    border-right: 2px solid #ccc;    
+}
+
+tbody{
+    background-color: darkseagreen;
+    margin-top: 20px;
+}
+
+tbody button{
+    background-color: red;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+}
+
+section.dados-contabeis{
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: rgb(206, 222, 241);
+    color: #000;
+    text-align: right;
+}
+
+section.dados-contabeis p, .calcular{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+section.dados-contabeis p.lucro{
+    color: green;
+    font-size: 20px;
+    
+    
+}
+
+section.dados-contabeis input{ 
+    border-radius: 4px;   
+    width: 80px;
+    padding-left: 5px;
+    border: 2px solid rgb(42, 202, 11)
+}
+
+button.calcular{
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.resultados th{    
+    height: 25px;
+}

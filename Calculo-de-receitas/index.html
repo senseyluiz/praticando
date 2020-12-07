@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calaculo de Receitas</title>
+</head>
+<body>
+
+    <h1> Calculo de Receitas</h1>
+    
+    <form action="" class="center"> <!--Inicio do formulário-->
+
+        <label for="">Ingrediente</label>
+        <input type="text" class="ingrediente">
+
+        <label for="">Quantidade</label>
+        <input type="text" class="quantidade">
+
+        <label for="">Unidade de Medida</label>
+        <input type="text" class="unidade-medida">
+
+        <label for="">Peso da Embalagem</label>
+        <input type="text" class="peso-embalagem">
+
+        <label for="">Preço da Embalagem</label>
+        <input type="text" class="preco-embalagem">
+
+        <button class="adiciona"> ADICIONAR</button>
+
+    </form> <!--Fim do formulário-->
+
+    <table class="">
+        <thead>
+            <tr>
+                <th>Qtde</th>
+                <th>Unid</th>
+                <th>Ingrediente</th>
+                <th>Peso da Embalagem</th>
+                <th>Preço da embalagem</th>
+                <th>Custo na Receita</th> 
+                <th>Remover</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+        </tbody>        
+
+    </table>
+
+    <section class="dados-contabeis">
+        <div class="w50">
+            <p> Porcentagem para cálculo de Insumo: <input type="text" class="porcentagem-insumo"></p>
+
+            <p>Custo mensal de funcionários: <input type="text" class="custo-funcionarios"></p>
+
+            <p>Dias trabalhados por mês: <input type="text" class="dias-trabalhados"></p>
+
+            <p>Horas trabalhadas por dia: <input type="text" class="horas-trabalhadas"></p>
+
+            <p>Horas trabalhadas na Receita: <input type="text" class="horas-receita"></p>
+
+            <p>Valor da hora de trabalho: <input type="text" class="valor-hora"></p>
+
+            <p class="lucro">Porcentagem de lucro pretendido: <input type="text" class="lucro-pretendido"></p>
+
+            <button class="calcular">Calcular</button>
+        </div>        
+    </section>
+
+    <section class="resultados">
+        <table>
+            <thead>
+                <tr> 
+                    <th>Custo da Receita</th>
+                    <th>Insumos</th>
+                    <th>Mão de Obra</th>
+                    <th>Lucro</th>
+                    <th>Total da Receita</th>
+                    <th>Valor Unitário</th>
+                </tr>
+            </thead>
+
+            <tbody class="boxResultado">
+                
+                
+            </tbody>
+        </table>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
